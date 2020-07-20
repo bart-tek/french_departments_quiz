@@ -26,6 +26,16 @@ class MyCustomFormState extends State<MyCustomForm> {
     super.initState();
     _txtFocusNode1 = FocusNode();
     _txtFocusNode2 = FocusNode();
+    loadDepartments().then((deps) {
+      setState(() {
+        _departments = Department.parseJson(deps.toString());
+      });
+    });
+  }
+
+  Future<String> loadDepartments() async {
+    return await DefaultAssetBundle.of(context)
+        .loadString('assets/departments.json');
   }
 
   void _getNewQuestion() {
