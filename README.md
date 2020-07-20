@@ -1,16 +1,10 @@
 # french_departments_quiz
 
-A new Flutter project.
+Simple flutter project to test the language.
+The goal of the app is to help people learn the French departments with their number and capital.
 
-## Getting Started
+Originally developped to help me get better at Geoguessr.
 
-This project is a starting point for a Flutter application.
+The departments are stored in a JSON file.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Maybe I'll make a better GUI, and some user-friendly interactions sucha as showing explicitly when the answer is correct and a mean to display the correct answer after X tries.
